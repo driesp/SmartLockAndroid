@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <com.github.driesp.smartlockandroid.customLinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@android:color/transparent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="XXXXXXXXXX"
+            android:id="@+id/lockRoom"
+            android:textStyle="bold"
+            android:textSize="50px"
+            android:minWidth="500px"
+            android:maxWidth="500px"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            android:background="@drawable/rectangle"
+            android:maxHeight="75px"
+            android:minHeight="75px" />
+            <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/connectButton"
+            android:layout_gravity="center_horizontal"
+                android:maxWidth="500px"
+                android:minWidth="500px"
+                android:minHeight="600px"
+                android:maxHeight="600px"
+                android:background="@drawable/textviewspecial"
+                android:src="@drawable/lock_active" />
+
+
+
+    </com.github.driesp.smartlockandroid.customLinearLayout>
+
+
+
+
+</LinearLayout>
